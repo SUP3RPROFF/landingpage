@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/images/bg-intro-desktop.png);
+    background-image: url(src"https://sup3rproff.github.io/images/bg-intro-desktop.png");
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
