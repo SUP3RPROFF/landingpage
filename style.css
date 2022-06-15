@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/bg-intro-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    bottom: 10%;
+    right: 5%;
+    background-color: hsl(0, 100%, 74%);
+    opacity: 0.75;
+    padding: 0 70px;
+   
+}
+form{
+    background-color: white;
+    padding: 20px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+h4{
+    text-align: center;
+    background-color: hsl(248, 32%, 49%);
+}
+form input{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid hsl(246, 25%, 77%);
+}
+#tg{
+    border-color: hsl(249, 10%, 26%) ;
+}
+form button{
+    background-color: hsl(154, 59%, 51%);
+    text-align: center;
+    width: 300px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+#sec-one{
+    flex-basis: 10;
+    color: white;
+}
+#sec-two{
+    flex-basis: 4;
+}
+h4{
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+#sec-two span{
+    color: hsl(246, 25%, 77%);
+}
+#one{
+    font-size: 11px;
+    text-align: center;
+    margin-left: -9px;
+}
+
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: hsl(0, 100%, 74%);
+    }
+    main{
+        background-image: url(/images/bg-intro-mobile.png);
+        flex-direction: column;
+        height: fit-content;
+        text-align: center;
+    }
+    #sec-one{
+        margin-bottom: 20px;
+    }
+    form{
+        margin-bottom: 40px;
+    }
+}
